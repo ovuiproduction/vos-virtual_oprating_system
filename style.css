@@ -63,7 +63,10 @@ nav .logotext h1{
     background-color:rgb(25, 25, 35);
     color:whitesmoke;
 }
-
+#execute:hover{
+    color:yellow;
+    border:2px solid rgb(39, 27, 51);
+}
 #renew{
     margin-left:40px;
     cursor: pointer;
@@ -74,7 +77,10 @@ nav .logotext h1{
     background-color:rgb(28, 28, 39);
     color:whitesmoke;
 }
-
+#renew:hover{
+    color:yellow;
+    border:2px solid rgb(39, 27, 51);
+}
 .output{
     width:90%;
     height:200px;
