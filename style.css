@@ -44,7 +44,7 @@ nav .logotext h1{
     background-color:rgb(38, 41, 46);
     color: white;
     font-size:25px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:sans-serif;
     border:2px solid white;
     border-radius:5px;
 }
