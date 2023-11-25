@@ -39,11 +39,12 @@ nav .logotext h1{
     color:white;
 }
 #paragraphInput{
-    margin:100px auto auto 30%;
+    width:47%;
+    margin:100px auto auto 27%;
     background-color:rgb(38, 41, 46);
     color: white;
     font-size:25px;
-    font-family: sans-serif;
+    font-family:'Courier New', Courier, monospace;
     border:2px solid white;
     border-radius:5px;
 }
@@ -67,6 +68,7 @@ nav .logotext h1{
     color:yellow;
     border:2px solid rgb(39, 27, 51);
 }
+
 #renew{
     margin-left:40px;
     cursor: pointer;
@@ -140,11 +142,72 @@ nav .logotext h1{
     border:2px solid rgb(172, 168, 168);
 }
 
-.F0{
+.firstrow{
+    width: max-content;
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:65%;
+    top:70%;
+    left: 5%;
+    display:flex;
+    column-gap:250px;
+}
+.secondrow{
+    width: max-content;
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:160%;
+    left: 5%;
+    display:flex;
+    column-gap:250px;
+}
+.thirdrow{
+    width: max-content;
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:250%;
+    left: 5%;
+    display:flex;
+    column-gap:200px;
+}
+.fourthrow{
+    width: max-content;
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:340%;
+    left: 5%;
+    display:flex;
+    column-gap:200px;
+}
+.fifthrow{
+    width: max-content;
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:430%;
+    left: 5%;
+    display:flex;
+    column-gap:200px;
+}
+.sixthrow{
+    width: max-content;
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:520%;
+    left: 5%;
+    display:flex;
+    column-gap:200px;
+}
+
+/* .F0{
+    font-family:monospace;
+    font-size:15px;
+    position: absolute;
+    top:70%;
     left: 5%;
     display:inline-block;
 }
@@ -153,7 +216,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:65%;
+    top:70%;
     left:25%;
     display: inline-block;
 }
@@ -162,7 +225,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:65%;
+    top:70%;
     left: 45%;
     display: inline-block;
 }
@@ -171,7 +234,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:65%;
+    top:70%;
     right:30%;
     display: inline-block;
 }
@@ -180,15 +243,17 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:65%;
+    top:70%;
     right: 10%;
     display: inline-block;
-}
-.F5{
+} */
+
+
+/* .F5{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:155%;
+    top:160%;
     left: 5%;
     display: inline-block;
 }
@@ -197,7 +262,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:155%;
+    top:160%;
     left:25%;
     display: inline-block;
 }
@@ -206,7 +271,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:155%;
+    top:160%;
     left: 45%;
     display: inline-block;
 }
@@ -215,7 +280,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:155%;
+    top:160%;
     right:30%;
     display: inline-block;
 }
@@ -224,16 +289,16 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:155%;
+    top:160%;
     right: 10%;
     display: inline-block;
-}
+} */
 
-.F10{
+/* .F10{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:242%;
+    top:250%;
     left: 5%;
     display: inline-block;
 }
@@ -242,7 +307,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:242%;
+    top:250%;
     left:25%;
     display: inline-block;
 }
@@ -251,7 +316,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:242%;
+    top:250%;
     left: 45%;
     display: inline-block;
 }
@@ -260,7 +325,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:242%;
+    top:250%;
     right:30%;
     display: inline-block;
 }
@@ -269,7 +334,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:242%;
+    top:250%;
     right: 10%;
     display: inline-block;
 }
@@ -278,7 +343,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:330%;
+    top:340%;
     left: 5%;
     display: inline-block;
 }
@@ -287,7 +352,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:330%;
+    top:340%;
     left:25%;
     display: inline-block;
 }
@@ -296,14 +361,14 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:330%;
+    top:340%;
     left: 45%;
     display: inline-block;
 }
 
 .F18{
     position: absolute;
-    top:330%;
+    top:340%;
     right:30%;
     display: inline-block;
 }
@@ -312,7 +377,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:330%;
+    top:340%;
     right: 10%;
     display: inline-block;
 }
@@ -321,7 +386,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:417%;
+    top:430%;
     left: 5%;
     display: inline-block;
 }
@@ -329,7 +394,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:417%;
+    top:430%;
     left: 25%;
     display: inline-block;
 }
@@ -337,7 +402,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:417%;
+    top:430%;
     left:45%;
     display: inline-block;
 }
@@ -345,7 +410,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:417%;
+    top:430%;
     right: 30%;
     display: inline-block;
 }
@@ -353,7 +418,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:417%;
+    top:430%;
     right: 10%;
     display: inline-block;
 }
@@ -362,7 +427,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:505%;
+    top:520%;
     left: 5%;
     display: inline-block;
 }
@@ -370,7 +435,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:505%;
+    top:520%;
     left: 25%;
     display: inline-block;
 }
@@ -378,7 +443,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:505%;
+    top:520%;
     left:45%;
     display: inline-block;
 }
@@ -386,7 +451,7 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:505%;
+    top:520%;
     right: 30%;
     display: inline-block;
 }
@@ -394,10 +459,10 @@ nav .logotext h1{
     font-family:monospace;
     font-size:15px;
     position: absolute;
-    top:505%;
+    top:520%;
     right: 10%;
     display: inline-block;
-}
+} */
 
 .instructions{
     position:absolute;
