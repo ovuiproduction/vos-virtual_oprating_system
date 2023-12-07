@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:aliceblue;
+}
+.back{
+    font-size: 50px;
+    position:absolute;
+   top:20px;
+   left:50px;
+   color: darkgray;
+    width: max-content;
+    height: max-content;
+    display: block;
+}
+.back a{
+    color: rgb(194, 193, 193);
+}
+.back a:hover{
+    color: rgb(65, 64, 64);
+}
+.cards{
+    width:80%;
+    height:max-content;
+    margin:90px 10% auto 10%;
+    display: block;
+}
+.cardblock1{
+    width:100%;
+    height:40vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.card1{
+    width:40%;
+    height:max-content;
+}
